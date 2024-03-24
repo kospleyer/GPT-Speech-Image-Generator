@@ -6,6 +6,14 @@
     android:layout_height="match_parent"
     tools:context=".ui.main.MainActivity">
 
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp200"
+        android:src="@drawable/bg_toolbar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <FrameLayout
         android:id="@+id/fragment_container"
         android:layout_width="match_parent"
@@ -22,12 +30,12 @@
         android:layout_width="match_parent"
         android:layout_height="@dimen/dp64"
         android:layout_alignParentBottom="true"
-        android:paddingHorizontal="@dimen/dp6"
         android:background="@drawable/bg_bottom_nav_view_container"
-        app:itemIconSize="@dimen/dp32"
-        app:itemRippleColor="@null"
+        android:paddingHorizontal="@dimen/dp6"
         android:scrollIndicators="none"
+        app:itemIconSize="@dimen/dp32"
         app:itemIconTint="@drawable/bg_bottom_nav_menu"
+        app:itemRippleColor="@null"
         app:itemTextColor="@drawable/bg_bottom_nav_menu"
         app:labelVisibilityMode="unlabeled"
         app:layout_constraintBottom_toBottomOf="parent"

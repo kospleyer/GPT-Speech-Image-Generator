@@ -49,6 +49,7 @@
 	<dimen name="dp90">80dp</dimen>
 	<dimen name="dp100">89dp</dimen>
 	<dimen name="dp124">110dp</dimen>
+	<dimen name="dp200">178dp</dimen>
 	<dimen name="dp224">199dp</dimen>
 	<dimen name="dp260">231dp</dimen>
 	<dimen name="dp274">243dp</dimen>
