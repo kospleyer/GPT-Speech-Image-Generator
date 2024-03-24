@@ -3,4 +3,9 @@
 
     <string name="error_occurred">Error occurred</string>
 
+    <!-- Main bottom nav menu -->
+    <string name="main">Main</string>
+    <string name="gif">Appointment</string>
+    <string name="history">Medicine</string>
+
 </resources>
